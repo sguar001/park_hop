@@ -1,0 +1,21 @@
+.thumbnail img
+{
+    width: 100%;
+}
+
+.thumbnail
+{
+    padding: 0;
+}
+
+/* select caption-fulls inside thumbnails */
+.thumbnail .caption-full 
+{
+    padding: 9px;
+}
+
+/* style delete button */
+.delete-form
+{
+    display: inline;
+}
