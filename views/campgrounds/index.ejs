@@ -5,7 +5,7 @@
     <header class="jumbotron">
         <div class="container">
             <h1>Welcome to ParkHop!</h1>
-            <p>Choose from a variety of parks to camp at!!</p>
+            <p>Choose from a variety of parks to camp at!</p>
             <p>
                 <a class="btn btn-primary btn-lg" href="/campgrounds/new">Add a Park</a>
             </p>
@@ -15,7 +15,7 @@
     <div class="row text-center" style="display:flex; flex-wrap: wrap;">
         <% campgrounds.forEach(function(campground){ %>
         <div class="col-md-3 col-sm-6">
-            <div class="thumbnail">
+            <div class="thumbnail" height="100%">
                 <img src=" <%= campground.image %> ">
                 <div class="caption">
                     <h4> <%= campground.name %> </h4>

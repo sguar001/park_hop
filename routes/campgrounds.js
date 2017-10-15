@@ -72,7 +72,7 @@ router.get("/campgrounds/:id", function(req, res)
         }
         else
         {
-            console.log(foundCampground);
+            //console.log(foundCampground);
             //render show template with that campground, found by id in DB
             res.render("campgrounds/show", {campground: foundCampground}); 
         }
